@@ -1,6 +1,6 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
-const { formatBytes, getLocalBuffer, runtime } = require('../lib/functions2');
+const { runtime } = require('../lib/functions2');
 const { platform, totalmem, freemem } = require('os');
 const { join } = require('path');
 
